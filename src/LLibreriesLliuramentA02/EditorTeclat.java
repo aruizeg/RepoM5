@@ -26,6 +26,9 @@ public class EditorTeclat {
                     break;
                 case 'S':
                     executar = false;
+                default:
+                    op = 'J';
+                    break;
             }
         }
     }
