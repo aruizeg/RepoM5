@@ -9,7 +9,7 @@ public class EditorTeclat {
         EditorArrayEnters ed = new EditorArrayEnters();
         InterficieUsuari iu = new InterficieUsuari();
 
-        boolean executar = true;
+        boolean executar = false;
 
         while (executar) {
             char op = iu.llegirOpcio(arrayA);
